@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "isni"
-  s.version           = "0.9"
+  s.version           = "1.0"
   s.summary           = "a (very) small library for working with ISNI and ORCID"
   s.description       = "a (very) small library for working with ISNI and ORCID"
   s.authors           = ["James Healy"]
