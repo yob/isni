@@ -1,0 +1,34 @@
+A small class for generating and validating Internation Standard Name
+Identifiers (ISNI). This will also works just fine with ORCID, a subset
+of ISNI.
+
+= Installation
+
+gem install isni
+
+= Usage
+
+  ISNI.new("0A9200800000007C").valid?
+  => true
+
+  ISNI.valid?("0A9200800000007C")
+  => true
+
+  ISNI.valid?("0A9200800000007B")
+  => false
+
+  ISNI.complete("0A9200800000007")
+  => "0A9200800000007C"
+
+  ISNI.new("0A9200800000007").to_s
+  => "0A9-2008-00000007-C"
+
+= Further Reading
+
+- http://en.wikipedia.org/wiki/International_Standard_Name_Identifier
+- http://support.orcid.org/knowledgebase/articles/116780-structure-of-the-orcid-identifier
+
+= Contributing
+
+Source code is publicly available @ http://github.com/yob/isni.
+Patches welcome, preferably via a git repo I can pull from.
