@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.homepage          = "http://github.com/yob/isni"
   s.has_rdoc          = true
   s.rdoc_options      << "--title" << "ISNI" << "--line-numbers"
-  s.files             =  Dir.glob("{lib}/**/*") + ["Rakefile","README.rdoc","MIT-LICENSE","CHANGELOG"]
+  s.files             =  Dir.glob("{lib}/**/*") + ["Rakefile","README.markdown","MIT-LICENSE","CHANGELOG"]
   s.license           = "MIT"
   s.required_ruby_version = ">=1.9.3"
 
