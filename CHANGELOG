@@ -1,3 +1,6 @@
+v1.2 (2nd December 2022)
+- Fix bug in checksum calculations for some identifiers ([#1](https://github.com/yob/isni/pull/1))
+
 v1.1 (16th July 2017)
 - Updated packaging to work well with ruby 1.9.3 to 2.4
 
