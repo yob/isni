@@ -38,7 +38,7 @@ class ISNI
         accum = (accum + i) * 2
       end
     end
-    remainder = 12 - (sum % 11) % 11
+    remainder = (12 - (sum % 11)) % 11
     if remainder == 10
       check = "X"
     else
