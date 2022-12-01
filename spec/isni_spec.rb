@@ -14,6 +14,9 @@ describe "The ISNI class" do
       expect(ISNI.valid?("0000-0002-9534-656X")).to eq true
       expect(ISNI.valid?("000000029534656X")).to eq true
       expect(ISNI.valid?("0000000122822548")).to eq true
+      expect(ISNI.valid?("0000-0003-2330-9361")).to eq true
+      expect(ISNI.valid?("0000-0003-1279-3709")).to eq true
+      expect(ISNI.valid?("0000 0002 9079 593X ")).to eq true
     end
 
     it "should identify an invalid ISNI" do
